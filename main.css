@@ -1,0 +1,315 @@
+.website {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-color: #fffff7;
+}
+div {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #fffff7;
+  z-index: 1000;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+}
+
+.container {
+  width: 100%;
+  height: 750px;
+}
+.container__background {
+  background-image: url("pictures/ChatGPT Image 00_32_31 1 thg 10, 2025.png");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  object-fit: cover;
+}
+.content {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  flex-direction: row;
+  flex-wrap: wrap;
+  max-width: 1200px;
+  width: 100%;
+}
+.navbar {
+  position: relative;
+}
+/* Ẩn icon ba gạch trên màn hình lớn */
+.menu-toggle {
+  display: none;
+}
+
+/* Menu desktop hiển thị ngang */
+.nav-list {
+  display: flex; /* hàng ngang */
+  flex-direction: row;
+  gap: 30px; /* khoảng cách giữa các item */
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+/* Style chữ menu */
+.nav-list li a {
+  text-decoration: none; /* bỏ gạch chân */
+  color: black; /* màu chữ bạn muốn (mặc định xanh là do <a>) */
+  font-weight: 600;
+  font-size: 25px;
+}
+
+.nav-list li a:hover {
+  color: #ff6600; /* màu khi hover */
+}
+
+.search {
+  display: flex;
+  background-color: #f1f1f1;
+  border-radius: 25px;
+  overflow: hidden;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+}
+.search input {
+  flex: 1;
+  background: transparent;
+  padding: 10px;
+  border: none;
+  outline: none;
+  font-size: 16px;
+}
+.search button {
+  width: 40px;
+  height: 40px;
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  cursor: pointer; /*cursor quy định rê chuột 
+                    pointer là bàn tay */
+}
+.content__Hero-text {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 100%;
+  max-width: 1200px;
+  margin-bottom: 70px;
+}
+
+.font__content {
+  color: #333333;
+  font-family: "Sansita Swashed", system-ui;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 50px;
+  letter-spacing: 1.2px;
+  line-height: 1.4;
+}
+.content__Hero-text button {
+  cursor: pointer;
+}
+.warrper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.round {
+  border-radius: 15px;
+}
+.distance {
+  margin-top: 80px;
+  margin-bottom: 50px;
+}
+
+.background__1 {
+  background-color: #f2fff8;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.15);
+}
+.background__2 {
+  background-color: #fafdff;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.15);
+}
+.background__3 {
+  background-color: #ffecec;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.15);
+}
+.background__4 {
+  background-color: #fbf5ff;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.15);
+}
+.background__5 {
+  background-color: #f4fcff;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.15);
+}
+.background__6 {
+  background-color: #fff7ea;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.15);
+}
+.span {
+  position: absolute; /*Vị trí tuyệt đối */
+  top: 0;
+  right: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+}
+
+.backgroundfooter {
+  background-color: #f5efef;
+  width: 100vw;
+}
+#logo {
+  max-width: 300px;
+  width: 25%;
+  height: 100px;
+}
+.header img {
+  width: 80%;
+  height: auto;
+}
+table {
+  position: absolute;
+  padding-top: 40px;
+  top: 0;
+}
+p {
+  font-size: 14px;
+  font-weight: 400;
+  margin: 0 auto 10px auto;
+}
+a {
+  font-size: 18px;
+  font-weight: 500;
+  color: blue;
+}
+
+#menu {
+  max-width: 590px;
+  width: 49.16667%;
+  height: 50px;
+  font-size: 20px;
+  font-weight: 50px;
+  cursor: pointer;
+}
+#button {
+  max-width: 250px;
+  width: 20.83333%;
+  height: 40px;
+}
+#content {
+  width: 585px;
+  height: 240px;
+}
+.distance__Image {
+  margin-left: 85px;
+}
+#Image {
+  display: flex;
+  border-radius: 30px;
+  background-color: #f1f1f1;
+  width: 200px;
+  height: 50px;
+  font-size: 21px;
+  cursor: pointer;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.2);
+}
+#Image:hover {
+  opacity: 0.6;
+}
+.title {
+  border-radius: 30px;
+  width: 600px;
+  height: 80px;
+}
+.itembig {
+  display: flex;
+  position: relative; /*Vị trí tương đối*/
+  width: 380px;
+  height: 420px;
+  margin-bottom: 20px;
+  flex-direction: column;
+  align-items: center;
+}
+
+.itemnormal {
+  display: flex;
+  position: relative;
+  width: 285px;
+  height: 370px;
+  margin-top: 50px;
+  flex-direction: column;
+  align-items: center;
+}
+.background__cat {
+  background-color: #f8c8c8;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.2);
+  color: #6b4423;
+}
+.background__belongings {
+  background-color: #a7f7f0;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.2);
+  color: #000000;
+}
+.background-1 {
+  background-color: #faebd7;
+  box-shadow: 0px 4px 10px rgba(139, 69, 19, 0.1);
+}
+
+.footer__1 {
+  flex-direction: column;
+  max-width: 380px;
+  width: 31.66667%;
+  height: 450px;
+  align-items: flex-start;
+  padding: 0 0 0 20px;
+}
+.footer__2 {
+  flex-direction: column;
+  max-width: 800px;
+  width: 66.66667%;
+  height: 450px;
+  align-items: flex-start;
+}
+i {
+  margin: 0 8px;
+  cursor: pointer;
+}
+.fa-2x {
+  font-size: 28px;
+  border-radius: 8px;
+}
+.fa-facebook {
+  background-color: blue;
+  color: white;
+  border: solid 1px;
+}
+.fa-tiktok {
+  background-color: black;
+  color: white;
+  border: solid 1px;
+}
+.fa-phone {
+  background-color: rgb(61, 249, 58);
+  color: white;
+  border: solid 1px;
+}
+.content__footer {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100vw;
+}

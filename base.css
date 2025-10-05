@@ -1,0 +1,25 @@
+* {
+  box-sizing: border-box;
+}
+html {
+  font-size: 20px;
+  font-family: "Be Vietnam Pro", sans-serif;
+  font-weight: 700;
+  line-height: 100%;
+}
+body {
+  margin: 0;
+}
+
+/* .grid {
+    width: 1200px;
+    margin: 0 auto;
+    max-width: 100%;
+  }
+  .grid__full-width {
+    width: 100%;
+  }
+  .grid__row {
+    display: flex;
+    flex-wrap: wrap;
+  } */
